@@ -17,3 +17,5 @@ for country, capital in zip_longest(countries, capitals, fillvalue='Unknown'):
 
 pairs = list(zip(countries, capitals))
 ctr, cap = zip(*pairs)
+
+#it is faster way to code, but it make your program slowly.

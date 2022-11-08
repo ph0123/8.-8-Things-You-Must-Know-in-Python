@@ -13,3 +13,4 @@ def contains_digit(input_str):
     return any(char.isdigit()
         for char in input_str
 )
+#return true if any element is true.

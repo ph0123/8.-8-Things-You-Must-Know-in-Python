@@ -23,3 +23,5 @@ A standard for loop
 '''
 for country in countries:
     print(country)
+
+#easy... not a big problem here.... However, this way is slower than for i in range(len(list)):

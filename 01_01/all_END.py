@@ -20,3 +20,5 @@ def valid_rgb(rgb):
             0 <= val <= 255
             for val in rgb
     )
+
+#all will return true if all elements are true.

@@ -16,4 +16,7 @@ country_list = [
                 Country('Japan', 128_000_000)
 ]
 
+print(sorted(country_list, key = lambda x: x.population))
+
 iso = [('Taiwan', 'iso24000000'), ('Portugal', 'iso10000000'), ('Netherlands', 'iso17500000'), ('Nigeria', 'iso198000000'), ('Jordan', 'iso10000000'), ('Nepal', 'iso30000000'), ('Niger', 'iso24000000'), ('Japan', 'iso128000000')]
+
